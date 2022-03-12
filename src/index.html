@@ -1,0 +1,49 @@
+<html>
+    <head> 
+        <title> YakFarmer! </title>
+
+        <script src="lib/web3.min.js"> </script>
+        <script src="lib/ethereumjs-tx-1.3.3.min.js"> </script>
+        
+        <script src="Platform.js"> </script>
+        <script src="init.js"> </script>
+        <script src="utils.js"> </script>
+        <script src="Farmer.js"> </script>
+        <script src="FarmView.js"> </script>
+        <script src="Token.js"> </script>
+        <script src="WavaxToken.js"> </script>
+        <script src="Account.js"> </script>
+        <script src="AccountView.js"> </script>
+        <script src="Controller.js"> </script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="center" id = "outerdiv"> 
+            <div class="grid-container">
+                <div class="connector">
+                    <h1> YakFarmer! </h1>
+                    <label for="privatekey">Your private key:</label>
+                    <input type="privatekey" id="privatekey">
+                    <input type="submit" id="connect" value="Connect">
+                    <p> Your account: <text id="accountID"> </text> </p>
+                </div>
+                <div id="account_div" class="account"> </div>
+            </div> <hr>
+            <div>
+                <input type="profit_limit" id="profit_limit" placeholder="enter profit limit"> </input>
+                <button id = "fill_check"> Fill & check! </button> 
+                <button id = "reset_limit"> Reset! </button> <br>
+                <input type="wallet_limit" id="wallet_limit" placeholder="enter wallet limit"> </input>
+                <button id = "update_wallet_lim"> Update Wallet Limit! </button> <br>
+                <button id="activateBot"> Activate bot! </button> 
+                <button id="reloadProfit"> Reload last profits </button> 
+            </div>
+
+        </div>
+    </body>
+
+    <script src="index.js"> </script>
+</html>

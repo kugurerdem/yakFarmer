@@ -1,0 +1,40 @@
+.outerbox {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.leftbox {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.rightbox {
+    float: right;
+    width: auto;
+    height: 125px;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+  }
+  
+  .connector { grid-area: 1 / 1 / 2 / 3; }
+  
+  .account { grid-area: 1 / 2 / 2 / 3; }
+  

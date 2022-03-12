@@ -18,7 +18,7 @@ This bot basically provides a basic interface for automating the task of reinves
 The bot started to run around 19 April 2021 and has been kept running until 1 June 2021, which almost raised 280 AVAX. 
 Here is a graph of the daily performance of the bot in terms of AVAX :
 
-[performance.png]!
+![performance.png](performance.png)
 
 ## Current Status
 

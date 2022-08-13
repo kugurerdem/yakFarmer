@@ -1,7 +1,7 @@
 # yakFarmer
 A reinvesting bot designed to make profit in the yield yak aggregator. 
 
-Thanks for [ignatyus](https://github.com/ignatyus) coming up with the project idea and contributing some of the aspects of the project.
+Built together with [ignatyus](https://github.com/ignatyus).
 
 ## YieldYak
 
